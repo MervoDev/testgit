@@ -4,6 +4,7 @@ export default function Hero() {
       <h2 className="text-4xl font-bold text-white mb-4">Qui sommes-nous ?</h2>
       <p className="text-lg text-gray-300 max-w-3xl mx-auto mb-8">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </p>

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Nav1 from './Navbar';
+
 export default function ServicesPage() {
   return (
     <main className="flex flex-col items-center justify-center py-10 px-4 text-center mt-24 text-center">
@@ -39,7 +39,7 @@ export default function ServicesPage() {
           />
           <p className="mt-2 text-sm">Satisfaction garantie</p>
         </div>
-        <Nav1/>
+        
       </div>
     </main>
   );

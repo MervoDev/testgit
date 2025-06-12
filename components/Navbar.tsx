@@ -43,7 +43,7 @@ export default function Nav() {
               <div className="hidden sm:ml-6 sm:flex space-x-4">
                 <Link
                   href="/"
-                  className="rounded-md bg-gray-200 px-3 py-2 text-sm font-medium text-black"
+                  className="rounded-md  px-3 py-2 text-sm font-medium text-black hover:bg-gray-100"
                 >
                   Accueil
                 </Link>
@@ -118,13 +118,13 @@ export default function Nav() {
 
                  <Link
                   href="/apropos"
-                  className="rounded-md bg-gray-200 px-3 py-2 text-sm font-medium text-black"
+                  className="rounded-md  px-3 py-2 text-sm font-medium text-black hover:bg-gray-100"
                 >
                   A propos
                 </Link>
 
                 <a
-                  href="#"
+                  href="/contact"
                   className="rounded-md px-3 py-2 text-sm font-medium text-gray-800 hover:bg-gray-100"
                 >
                   Contact

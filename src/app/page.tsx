@@ -9,6 +9,7 @@ import Transport from './transport/page';
 import Guides from './guide/page';
 import Excursion from './excursion/page';
 import Securite from './securite/page';
+import Contact from './contact/page';
 
 
 export default function Home() {

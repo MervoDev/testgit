@@ -3,7 +3,8 @@
 import { useRouter } from "next/navigation";
 import { Hotel, Car, UserCheck, Landmark, BadgeCheck, Map} from "lucide-react";
 import { FaUserTie } from "react-icons/fa";
-
+import Link from "next/link";
+import HeaderT from "./headertourisme";
 
 export default function TourismePage() {
   const router = useRouter();
@@ -67,15 +68,7 @@ export default function TourismePage() {
 
   return (
     <main className="min-h-screen bg-white pt-28 px-6 sm:px-10">
-      {/* Titre principal */}
-      <h1 className="text-4xl sm:text-5xl font-extrabold text-center text-indigo-900 mb-4">
-        Prestations Touristiques
-      </h1>
-      <p className="text-center text-lg text-gray-700 max-w-3xl mx-auto mb-12">
-        Découvrez les merveilles de notre pays grâce à nos circuits personnalisés, nos guides professionnels
-        et notre accompagnement complet pour un tourisme sans stress !
-      </p>
-
+      <HeaderT />
       {/* Section des services */}
       <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto mb-12">
         {services.map(({ id, title, icon, description, imgSrc, link }) => (
@@ -102,10 +95,13 @@ export default function TourismePage() {
 
       {/* Bouton Contactez-nous */}
       <div className="max-w-7xl mx-auto mb-16 text-center">
-        <button className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-8 rounded-full transition duration-300">
+        <Link 
+        href="/contact" 
+          className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-8 rounded-full transition duration-300">
           Contactez-nous
-        </button>
+        </Link>
       </div>
+      
     </main>
   );
 }

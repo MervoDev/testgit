@@ -17,15 +17,15 @@ export default function ContactPage() {
       </h1>
 
       <div className={`w-full max-w-xl bg-yellow-50 rounded-2xl p-8 shadow-md space-y-6 transition-transform duration-700 ${showContent ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
-        
-        <form 
-          className="space-y-4"
+
+        <form
           onSubmit={(e) => {
             e.preventDefault();
             alert("Merci pour votre message !");
-            e.target.reset();
+            (e.target as HTMLFormElement).reset();
           }}
         >
+
           <div>
             <label htmlFor="name" className="block font-semibold mb-1">Nom complet</label>
             <input
@@ -55,11 +55,12 @@ export default function ContactPage() {
             <textarea
               id="message"
               name="message"
-              rows="5"
+              rows={5}    // sans les guillemets, en nombre
               required
               className="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-yellow-500"
               placeholder="Écrivez votre message ici..."
             />
+
           </div>
 
           <button
@@ -70,7 +71,7 @@ export default function ContactPage() {
           </button>
         </form>
 
-       
+
       </div>
     </div>
   );

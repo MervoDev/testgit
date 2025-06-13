@@ -59,7 +59,7 @@ export default function Guides() {
           Des voyageurs conquis
         </h2>
         <p className="text-gray-700 italic">
-          "Grâce à notre guide, on a découvert une cascade cachée, écouté des contes transmis depuis des générations, et goûté un plat traditionnel dans une maison locale. Inoubliable !"
+          Grâce à notre guide, on a découvert une cascade cachée, écouté des contes transmis depuis des générations, et goûté un plat traditionnel dans une maison locale. Inoubliable !
         </p>
       </section>
 

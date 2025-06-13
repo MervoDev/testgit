@@ -40,7 +40,7 @@ export default function CommerceService() {
           <ul className="list-disc list-inside text-gray-700 space-y-2">
             <li>Vente de produits alimentaires, vestimentaires et électroménagers</li>
             <li>Fourniture de biens en gros et détail</li>
-            <li>Partenariats pour l'approvisionnement</li>
+            <li>Partenariats pour l approvisionnement</li>
             <li>Livraison rapide et fiable</li>
             <li>Support client personnalisé</li>
           </ul>

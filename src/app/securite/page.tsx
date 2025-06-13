@@ -69,7 +69,7 @@ export default function Securite() {
           Voyager en toute confiance
         </h2>
         <p className="text-gray-700 italic">
-          "Grâce à leur soutien constant et leur professionnalisme, nous nous sommes sentis accompagnés du début à la fin. Une vraie tranquillité d’esprit !"
+          Grâce à leur soutien constant et leur professionnalisme, nous nous sommes sentis accompagnés du début à la fin. Une vraie tranquillité d’esprit !
         </p>
       </section>
 
@@ -77,7 +77,7 @@ export default function Securite() {
       <section className="mt-16 text-center">
         <h3 className="text-2xl font-bold mb-4">Des questions sur votre sécurité ?</h3>
         <p className="text-gray-600 mb-6">
-          Contactez-nous pour en savoir plus sur nos dispositifs d'accompagnement et d'assurance.
+          Contactez-nous pour en savoir plus sur nos dispositifs d accompagnement et d assurance.
         </p>
         <button
           onClick={() => setIsOpen(true)}

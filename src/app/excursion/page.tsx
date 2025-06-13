@@ -19,7 +19,7 @@ export default function Excursion() {
           Excursions sur Mesure
         </h1>
         <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-          Créez votre propre aventure : entre balades culturelles, expériences sportives et découvertes inoubliables. Nos circuits s'adaptent à vos envies.
+          Créez votre propre aventure : entre balades culturelles, expériences sportives et découvertes inoubliables. Nos circuits s adaptent à vos envies.
         </p>
       </section>
 
@@ -69,7 +69,7 @@ export default function Excursion() {
           Une expérience inoubliable
         </h2>
         <p className="text-gray-700 italic">
-          "Nous avons composé notre propre circuit : entre visite de villages, kayak au lever du soleil et déjeuner chez l'habitant. Une journée riche en émotions et en découvertes !"
+          Nous avons composé notre propre circuit : entre visite de villages, kayak au lever du soleil et déjeuner chez l habitant. Une journée riche en émotions et en découvertes !
         </p>
       </section>
 

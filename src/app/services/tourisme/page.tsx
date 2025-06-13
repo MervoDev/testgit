@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { Hotel, Car, UserCheck, Landmark, BadgeCheck, Map} from "lucide-react";
-import { FaUserTie } from "react-icons/fa";
+//import { FaUserTie } from "react-icons/fa";
 import Link from "next/link";
 import HeaderT from "./headertourisme";
 

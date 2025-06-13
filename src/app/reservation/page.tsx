@@ -2,7 +2,16 @@
 
 import React, { useState } from 'react';
 
-const hotels = [
+type Hotel = {
+  name: string;
+  price: number;
+  services: string[];
+  image: string;
+  description: string;
+  gallery: string[];
+};
+
+const hotels: Hotel[] = [
   {
     name: "Novotel",
     price: 100000,
@@ -33,7 +42,7 @@ const hotels = [
 ];
 
 export default function ReservationHotels() {
-  const [selectedHotel, setSelectedHotel] = useState(null);
+  const [selectedHotel, setSelectedHotel] = useState<Hotel | null>(null);
   const [showForm, setShowForm] = useState(false);
 
   return (
@@ -141,6 +150,7 @@ export default function ReservationHotels() {
                 fontSize: 20,
                 cursor: "pointer",
               }}
+              aria-label="Fermer la fenêtre"
             >
               ✖
             </button>
@@ -155,7 +165,7 @@ export default function ReservationHotels() {
                 <img
                   key={i}
                   src={src}
-                  alt={`img-${i}`}
+                  alt={`Image ${i + 1} de la galerie`}
                   style={{
                     width: "100px",
                     height: "80px",
@@ -193,10 +203,7 @@ export default function ReservationHotels() {
                 </button>
               </form>
             ) : (
-              <button
-                onClick={() => setShowForm(true)}
-                style={reserveBtn}
-              >
+              <button onClick={() => setShowForm(true)} style={reserveBtn}>
                 Réservez
               </button>
             )}

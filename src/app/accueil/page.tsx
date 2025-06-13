@@ -13,9 +13,10 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default function HomePage() {
   return (
-    <main className=" bg-white min-h-screen">
+    <main className=" bg-white min-h-screen mt-12 padding-top pt-24 ">
       {/* Hero Section */}
-      <section className="max-w-7xl mx-auto mt-0 p-12 bg-gradient-to-r bg-gray-800 to-emerald-400 rounded-2xl shadow-xl text-white text-center px-8">
+     <section className="max-w-7xl mx-auto mt-0 mb-12 px-8 py-24 bg-gradient-to-r from-gray-800 to-emerald-400 rounded-2xl shadow-xl text-white text-center flex flex-col items-center justify-center">
+
         <h1 className="text-4xl sm:text-5xl font-extrabold mb-6 tracking-wide drop-shadow-lg">
           Bienvenue chez MultiServices Pro
         </h1>
@@ -144,7 +145,7 @@ export default function HomePage() {
       </section>
 
       {/* Call to Action */}
-      <section className="max-w-7xl mx-auto mt-0 p-12 bg-gradient-to-r bg-gray-800 to-emerald-400 rounded-2xl shadow-xl text-white text-center px-8">
+      <section className="max-w-7xl mx-auto mt-0 mb-12 p-12 bg-gradient-to-r from-gray-800 to-emerald-400 rounded-2xl shadow-xl text-white text-center px-8">
         <h2 className="text-3xl sm:text-4xl font-bold mb-4">
           Un projet ? Une idée ?
         </h2>

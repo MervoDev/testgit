@@ -24,7 +24,7 @@ text-white py-20 px-6 md:px-20 rounded-b-3xl overflow-hidden">
 
         <button
           onClick={() => window.scrollTo({ top: 600, behavior: "smooth" })}
-          className="mt-8 bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-3 rounded-full shadow-lg transition"
+          className="mt-8 bg-orange-400 hover:bg-orange-300 text-white font-semibold px-8 py-3 rounded-full shadow-lg transition"
           aria-label="Découvrez nos services"
         >
           Découvrez nos services

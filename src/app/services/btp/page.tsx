@@ -29,10 +29,7 @@ export default function BTPPage() {
         <main className="min-h-screen bg-gray-50 text-gray-800 px-4 py-10 md:px-20 pt-24">
             <HeaderB/>
             <section className="max-w-5xl mx-auto text-center mb-16">
-                <h1 className="text-4xl font-bold text-blue-900 mb-4">Service BTP</h1>
-                <p className="text-lg text-gray-600">
-                    Nous offrons des solutions fiables et innovantes dans le domaine du bâtiment et des travaux publics.
-                </p>
+                
             </section>
 
             <section className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
